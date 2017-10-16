@@ -17,13 +17,13 @@ less filename
 2. q退出
 
 # 通配符
-1. *  0,1,more char 
+1. 星号  0,1,more char 
 2. ?  1 char
 3. [character] one character in set
 4. [!character] no one character in set
 5. [[:class:]] one char in class
-[:digit:] number
-[:lower:] lower char 
-[:upper:] upper char 
-[:alnum:] num + alpha
-[:alpha:] lower + upper
+5.1. [:digit:] number
+5.2. [:lower:] lower char 
+5.3. [:upper:] upper char 
+5.4. [:alnum:] num + alpha
+5.5. [:alpha:] lower + upper
