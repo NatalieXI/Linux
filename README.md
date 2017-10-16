@@ -22,8 +22,9 @@ less filename
 3. [character] one character in set
 4. [!character] no one character in set
 5. [[:class:]] one char in class
-5.1. [:digit:] number
-5.2. [:lower:] lower char 
-5.3. [:upper:] upper char 
-5.4. [:alnum:] num + alpha
-5.5. [:alpha:] lower + upper
+## 有以下几种类
+1. [:digit:] number
+2. [:lower:] lower char 
+3. [:upper:] upper char 
+4. [:alnum:] num + alpha
+5. [:alpha:] lower + upper
