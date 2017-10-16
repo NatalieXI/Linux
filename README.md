@@ -28,3 +28,19 @@ less filename
 3. [:upper:] upper char 
 4. [:alnum:] num + alpha
 5. [:alpha:] lower + upper
+
+# mkdir命令
+mkdir directory....
+
+# cp命令（copy）
+1. cp item1 item2（当前目录当中复制一个文件）
+2. cp items... directory
+3. -a(archive) -i(interactive) -r(recursive递归的) -u(update) -v(verbose)
+
+# ln命令
+ln file link  //创建硬链接
+ln -s item link //创建软链接
+## 硬链接
+编辑一个其中文件，所有的文件都会变化，且删除任何一个文件不会影响其他文件
+## 软链接
+相当于windows的快捷方式，编辑一个其中文件，所有的文件都会变化，删除源文件，链接中断
