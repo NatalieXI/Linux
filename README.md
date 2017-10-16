@@ -44,3 +44,9 @@ ln -s item link //创建软链接
 编辑一个其中文件，所有的文件都会变化，且删除任何一个文件不会影响其他文件
 ## 软链接
 相当于windows的快捷方式，编辑一个其中文件，所有的文件都会变化，删除源文件，链接中断
+
+# 命令的种类 type、which、help、man命令
+1. execute binary 可执行二进制文件()
+2. buildin bash (内建bash)
+3. shell function (内嵌的shell)
+4. alias (别名)
