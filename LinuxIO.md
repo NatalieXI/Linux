@@ -12,3 +12,7 @@ stdin   stander input
 2:stderr
 1. ls -al /eee 2 > ilename
 2. ls -l . /eeee 1> filename 2>&1 （这个命令很重要）
+2. ls -l . /eeee &> filename （这个命令很重要）
+
+# useless message
+重定向到/dev/null 垃圾桶
