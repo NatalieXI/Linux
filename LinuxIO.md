@@ -6,8 +6,9 @@ stdin   stander input
 1. common > filename
 2. common >> filename
 
-重定向标准错误信息
+## 重定向标准错误信息
 0:stdin
 1:stdout
 2:stderr
-eg:ls -al /eee 2>filename
+1. ls -al /eee 2 > ilename
+2. ls -l . /eeee 1> filename 2>&1 （这个命令很重要）
