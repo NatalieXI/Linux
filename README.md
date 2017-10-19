@@ -50,3 +50,7 @@ ln -s item link //创建软链接
 2. buildin bash (内建bash)
 3. shell function (内嵌的shell)
 4. alias (别名)
+# awk命令
+分析工具
+# nohup命令（no hang up 不挂起执行）
+该命令的一般形式为：nohup command &
