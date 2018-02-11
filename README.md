@@ -10,7 +10,7 @@ ls      -a       /usr 为例
 3. short option combine -alh
 
 # file命令
-file filename
+file filename（用于辨识该文件的类型）
 # less 命令
 less filename
 1. j.k.d.u.space
